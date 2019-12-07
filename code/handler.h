@@ -3,7 +3,19 @@
 #ifndef HANDLER_H
 #define HANDLER_H
 
-#include "QtWidgets"
+#include "qstring.h"
+#include "qwidget.h"
+#include "qbytearray.h"
+#include "qlineedit.h"
+#include "qdir.h"
+#include "qformlayout.h"
+#include "qlabel.h"
+#include "QPushButton"
+#include "qcheckbox.h"
+#include "qobject.h"
+#include "qmessagebox.h"
+#include "qfile.h"
+#include "qiodevice.h"
 #include "perswidget.h"
 
 class MyWidget;

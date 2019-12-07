@@ -108,7 +108,7 @@ void shower::newPassword()
     cancel->setFocusPolicy(Qt::ClickFocus);
 
 
-    connect(createRandom,SIGNAL(clicked()),this,SLOT(dbox()));
+    QObject::connect(createRandom,SIGNAL(clicked()),this,SLOT(dbox()));
 
     d->setLayout(layout1);
     int result = d->exec();

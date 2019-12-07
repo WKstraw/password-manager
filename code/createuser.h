@@ -1,9 +1,21 @@
 #ifndef CREATEUSER_H
 #define CREATEUSER_H
 
-#include "QtWidgets"
+#include "qstring.h"
 #include "qwidget.h"
-#include <QCryptographicHash>
+#include "qbytearray.h"
+#include "qlineedit.h"
+#include "qdir.h"
+#include "qformlayout.h"
+#include "qlabel.h"
+#include "QPushButton"
+#include "qcheckbox.h"
+#include "qobject.h"
+#include "qmessagebox.h"
+#include "qfile.h"
+#include "qiodevice.h"
+#include "qcryptographichash.h"
+#include "qtextstream.h"
 
 class createUser : public QWidget
 {
