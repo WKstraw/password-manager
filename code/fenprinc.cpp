@@ -8,7 +8,7 @@ fenPrinc::fenPrinc()
     QLabel *p = new QLabel;
     QPushButton *access = new QPushButton;
     QPushButton *newUser =new QPushButton;
-    QSpacerItem *spacer =new QSpacerItem(1,3);
+    QSpacerItem *spacer =new QSpacerItem(1,10);
     QCheckBox *showP = new QCheckBox("Show Password");
     p1->setEchoMode(QLineEdit::Password);
 

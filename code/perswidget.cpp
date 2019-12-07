@@ -27,7 +27,7 @@ int MyWidget::getPosInList()
 void MyWidget::constructor(QString mdp, QString site)
 {
     handler = Handler::getInstance();//connection with handler established;
-    connect(this,SIGNAL(signalPasswordChange(QString,int)),handler,SLOT(changePassword(QString,int)));
+    QObject::connect(this,SIGNAL(signalPasswordChange(QString,int)),handler,SLOT(changePassword(QString,int)));
     this->setFixedSize(widgSize);
     this->setLineWidth(1);
     this->setMidLineWidth(1);
@@ -81,12 +81,12 @@ void MyWidget::constructor(QString mdp, QString site)
         tempS=style.readAll();
         this->setStyleSheet(tempS);
     }
-    connect(button_delete,SIGNAL(released()),this,SLOT(delClick()));
-    connect(button_down,SIGNAL(released()),this,SLOT(downClick()));
-    connect(button_up,SIGNAL(released()),this,SLOT(upClick()));
-    connect(button_plus,SIGNAL(released()),this,SLOT(newClick()));
-    connect(button_copy,SIGNAL(released()),this,SLOT(copyClick()));
-    connect(this,SIGNAL(butClicked(int,int)),handler,SLOT(buttonClicked(int,int)));
+    QObject::connect(button_delete,SIGNAL(released()),this,SLOT(delClick()));
+    QObject::connect(button_down,SIGNAL(released()),this,SLOT(downClick()));
+    QObject::connect(button_up,SIGNAL(released()),this,SLOT(upClick()));
+    QObject::connect(button_plus,SIGNAL(released()),this,SLOT(newClick()));
+    QObject::connect(button_copy,SIGNAL(released()),this,SLOT(copyClick()));
+    QObject::connect(this,SIGNAL(butClicked(int,int)),handler,SLOT(buttonClicked(int,int)));
 }
 
 bool MyWidget::eventFilter(QObject *watched, QEvent *event)

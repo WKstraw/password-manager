@@ -139,7 +139,7 @@ void Handler::createPasswordWidget(QString p, QString s, int onCreationId)
     MyWidget *widg = new MyWidget(p,s,*number);
     externalList->append(widg);
     QVector<QString> vect;
-    vect << p << s << QString::number(*number);
+    vect << s << p << QString::number(*number);
     *number+=1;
     SecondList->append(vect);
     emit uploadView(widg);

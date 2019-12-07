@@ -1,16 +1,38 @@
 #ifndef SHOWER_H
 #define SHOWER_H
 #pragma once
-#include <QtWidgets>
-#include <QMainWindow>
-#include <QLayout>
+#include "qmainwindow.h"
+#include "qstring.h"
+#include "qwidget.h"
+#include "qbytearray.h"
+#include "qlineedit.h"
+#include "qdir.h"
+#include "qformlayout.h"
+#include "qlabel.h"
+#include "QPushButton"
+#include "qcheckbox.h"
+#include "qobject.h"
+#include "qmessagebox.h"
+#include "qfile.h"
+#include "qiodevice.h"
+#include "qcryptographichash.h"
+#include "qtextstream.h"
 #include <qtextstream.h>
-#include <QGlobal.h>
+#include "qglobal.h"
 #include <QTime>
-#include "QCryptographicHash"
+#include "QVBoxLayout"
+#include "qtextedit.h"
+#include "qmenu.h"
+#include "qmenubar.h"
+#include "qaction.h"
+#include "qdebug.h"
+#include "qdialogbuttonbox.h"
+#include "qspinbox.h"
+#include "qscrollarea.h"
 #include "createuser.h"
 #include "handler.h"
 #include "perswidget.h"
+#include "qpropertyanimation.h"
 
 class shower : public QMainWindow
 {Q_OBJECT

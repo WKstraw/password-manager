@@ -4,7 +4,24 @@
 #define PERSWIDGET_H
 
 
-#include "QtWidgets"
+#include "qstring.h"
+#include "qwidget.h"
+#include "qbytearray.h"
+#include "qlineedit.h"
+#include "qdir.h"
+#include "qformlayout.h"
+#include "qlabel.h"
+#include "QPushButton"
+#include "qcheckbox.h"
+#include "qobject.h"
+#include "qmessagebox.h"
+#include "qfile.h"
+#include "qiodevice.h"
+#include "qtextstream.h"
+#include "qdebug.h"
+#include "qevent.h"
+#include "qguiapplication.h"
+#include "qclipboard.h"
 #define UNDEF -1
 
 #include "handler.h"
