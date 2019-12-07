@@ -1,0 +1,9 @@
+QPushButton{background-color : black; color:white; padding:5px;border-width: 3px;border-radius:6px; }
+QPushButton:hover{background-color:grey}
+QPushButton#ac:hover{background-color:green; padding-top:6px;}
+QPushButton#nU:hover{background-color:#15ccd8}
+QLineEdit{padding:2px;}
+QLineEdit:!read-only{border:1px solid; border-radius:4px; border-color:#42b6ff;}
+QLineEdit::focus{border-color:#ea2a2a;}
+QMenu{background-color:red}
+QLabel#CONL{background-color:rgb(32,39,99);color:white;border-radius:5px;}

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/stylesheets">
+        <file>main.qss</file>
+        <file>mywidget.qss</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>arrows-down.png</file>
+        <file>arrows-up.png</file>
+        <file>minus-red.png</file>
+        <file>plus-green.png</file>
+        <file>copy-128.png</file>
+        <file>delete-128.png</file>
+    </qresource>
+</RCC>
