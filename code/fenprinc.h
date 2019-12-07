@@ -20,7 +20,7 @@ private:
     void verif(QString username, QString pw);
     QByteArray *newUserArray = new QByteArray;
     const int width =230;
-    const int height=186;
+    const int height=176;
 
 public slots:
     void verificationnn();
